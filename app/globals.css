@@ -200,3 +200,19 @@ h1 { margin: 22px 0 26px; font-size: clamp(52px, 6.7vw, 104px); line-height: .94
   .contact { min-height: 800px; }
   .contact-meta { flex-direction: column; gap: 12px; text-align: left; }
 }
+
+#dify-chatbot-bubble-button {
+  background-color: #1C64F2 !important;
+}
+
+#dify-chatbot-bubble-window {
+  width: 24rem !important;
+  height: 40rem !important;
+}
+
+@media (max-width: 640px) {
+  #dify-chatbot-bubble-window {
+    width: calc(100vw - 2rem) !important;
+    height: min(40rem, calc(100svh - 5rem)) !important;
+  }
+}
